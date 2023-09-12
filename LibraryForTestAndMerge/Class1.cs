@@ -11,9 +11,9 @@ namespace LibraryForTestAndMerge
             Index = index;
         }
 
-        public void IndexIncrease()
+        public void AddValue(int value)
         {
-            Index++;
+            Index+=value;
         }
     }
 }
